@@ -10,7 +10,7 @@ namespace HelloWorldTests
         [TestMethod]
         public void TestMethod1()
         {
-            Assert.AreEqual("My World", Program.CreateMessage());
+            Assert.AreEqual("Hello World", Program.CreateMessage());
         }
     }
 }
